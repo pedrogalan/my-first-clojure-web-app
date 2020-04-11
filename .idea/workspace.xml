@@ -20,7 +20,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="ReplState" timestamp="1586592231028">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="ReplState" timestamp="1586593790545">{:repl-history {:ide [], :local [], :remote []}}</component>
   <component name="RunManager">
     <configuration name="REPL for my-first-clojure-web-app" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" temporary="true">
       <module name="my-first-clojure-web-app" />
@@ -73,6 +73,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="128" key="#Notifications" timestamp="1586593790240">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="128" key="#Notifications/0.23.1440.877@0.23.1440.877" timestamp="1586593790240" />
     <state width="1440" height="237" key="GridCell.Tab.0.bottom" timestamp="1586543066768">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -89,10 +93,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1440" height="237" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586543066767" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1586591871154">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1586593718303">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1586591871154" />
+    <state width="500" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1586593718303" />
     <state x="355" y="213" width="730" height="676" key="search.everywhere.popup" timestamp="1586543036488">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
