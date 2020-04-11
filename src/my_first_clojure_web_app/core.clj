@@ -1,15 +1,20 @@
 (ns my-first-clojure-web-app.core
-  (:require [ring.adapter.jetty :refer [run-jetty]]))
+  (:require [ring.adapter.jetty :refer [run-jetty]]
+            [clojure.pprint     :refer [pprint]]
+            [compojure.core     :refer [routes GET]]
+            [compojure.route    :refer [not-found]]))
 
-(defn handler [_]
+(def my-routes
+  (routes
+    (GET "/endpoint-a"  [] "<h1>Hello endpoint A</h1>")
+    (GET "/endpoint-b"  [] "<h1>Hello endpoint B</h1>")
+    (not-found "<h1>Page not found</h1>")))
+
+(defn handler [request]
+  (clojure.pprint/pprint request)
   {:status 200
    :headers {"Content-Type" "text/html"}
-   :body "Hello world"})
+   :body "Hello world!"})
 
 (defn -main []
-  (run-jetty handler {:port 3000}))
-
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+  (run-jetty my-routes {:port 3000}))

@@ -1,14 +1,14 @@
 # my-first-clojure-web-app
 
-A Clojure library designed to ... well, that part is up to you.
+My first simple web app using Clojure. It's yet another silly JSON API.
+
+Based on http://matthewlisp.com/set-up-clojure-api/
 
 ## Usage
 
-FIXME
+TO BE COMPLETED
 
 ## License
-
-Copyright © 2020 FIXME
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
